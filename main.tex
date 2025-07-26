@@ -1,0 +1,287 @@
+%-------------------------
+% Resume in Latex
+% Author : Anik Adhikari
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+% added packages by anik
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+% \usepackage{fontawesome}
+
+\usepackage[hidelinks]{hyperref}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+\usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% % serif
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+% ----------HEADING----------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Huge Anik Adhikari} & \faPhoneSquare*\ +91-9091514200 \vspace{5pt} \\
+  \href{https://anikadhikari.netlify.app}{\faGlobeAsia\ \underline{Portfolio}} • \href{https://www.linkedin.com/in/anikadhikari}{\faLinkedin\ \underline{LinkedIn}} • \href{https://github.com/AnikAdhikari7}{\faGithub\ \underline{GitHub}} & \href{mailto:anikadhikari.career@gmail.com}{\faEnvelope\ anikadhikari.career@gmail.com}
+\end{tabular*}
+
+
+% \begin{center}
+%     \textbf{\Huge \scshape Anik Adhikari}
+%     \\ \vspace{2pt}
+%     \small
+%     \faPhone\ +91-9091514200 $|$
+%     \href{mailto:anikadhikari.career@gmail.com}{\faEnvelope\ anikadhikari.career@gmail.com} $|$
+%     \href{https://anikadhikari.netlify.app}{\faGlobe\ \underline{Portfolio}} $|$
+%     \href{https://www.linkedin.com/in/anikadhikari}{\faLinkedin\ \underline{LinkedIn}} $|$
+%     \href{https://github.com/AnikAdhikari7}{\faGithub\ \underline{GitHub}}
+% \end{center}
+
+
+%-----------EXPERIENCE-----------
+\section{\faBriefcase\ Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Tata Consultancy Services - TCS}{Sep 2024 -- Present}
+      {Application Engineer $|$ Full Time $|$ Client Location}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Working in the Infra App Management Project within the \textbf{BFSI} domain for the esteemed client \textbf{SMFG India Credit}.}
+        \resumeItem{Incident Management: Resolving \textbf{LOS/LMS} productio,n application errors and service disruptions.}
+        \resumeItem{Service Requests: Streamlining workflows for access provisioning and IT support operations across business units.}
+        \resumeItem{Monitoring and supporting critical \textbf{Banking production applications}, ensuring high availability through health checks, incident resolution, and system monitoring using tools like AppDynamics.}
+        \resumeItem{Collaborating across teams to resolve L1/L2 issues, participated in P1/P2 bridges, conducted RCA, and supported deployments, DR drills, and change management activities.}
+      \resumeItemListEnd
+
+    \vspace{-16pt}
+    \resumeSubheading
+      {}{}
+      {Graduate Trainee $|$ Full Time $|$ TCS Ignite}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Completed a 4 months ILP Training on various trending technologies like Web Dev, CP (Java), AIML, DevOps.}
+        \resumeItem{Developed and deployed incubator project \textbf{IgniteCare}, a Full Stack MERN-based \textbf{ticketing application} to streamline trainee support and issue resolution, which is currently used by thousands of trainees internally.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \resumeSubheading
+      {Avinya NeuroTech}{Feb 2024 -- Jun 2024}
+      {Backend Developer Intern $|$ Internship $|$ \href{https://drive.google.com/file/d/1mpAS0A-kdXPBVeVF2DkXx1QO3Wgk1XjO/view?usp=sharing}{\underline{Offer Letter} \faExternalLinkSquare*}}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed backend \textbf{microservices} and optimized APIs using Python, Flask, PostgreSQL, Docker, and AWS.}
+        \resumeItem{Containerized services deployed via Docker Compose on \textbf{AWS EC2} with GitHub Actions \textbf{CI/CD} automation.}
+        \resumeItem{Improved back-end reliability by working in collaboration with the ML and development teams.}
+     \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{\faGraduationCap\ Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chandigarh University}{Jul 2025 -- Jun 2027}
+      {Master of Computer Applications - MCA • Cloud Computing}{...}
+    \resumeSubheading
+      {Netaji Subhash Engineering College}{Aug 2021 -- Jun 2024}
+      {Bachelor of Computer Applications - BCA $|$ \href{https://drive.google.com/file/d/1vmg-lJJ-0qOKpH8YG5ALQX7ZN8_xOOYO/view?usp=sharing}{\underline{Certificate} \faExternalLinkSquare*}}{CGPA: 8.71}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{\faLaptopCode\ Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\href{https://github.com/AnikAdhikari7/xpress-init}{\textbf{Xpress-init}} $|$ \emph{NPM Package $|$ \href{https://www.npmjs.com/package/xpress-init}{\underline{Link} \faExternalLinkSquare*}}}{Feb 2025 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Created xpress-init, a \textbf{CLI} tool to quickly bootstrap Express.js apps.}
+            \resumeItem{Integrated logging, database setup (MongoDB/Mongoose), environment management, and Docker.}
+            \resumeItem{Added authentication (signup, login) with JWT and bcrypt.js encryption.}
+            \resumeItem{\textbf{Tech Stack:} JavaScript, Node.js, Express, Mongoose, JWT, bcrypt.js, Morgan, Winston, Docker.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\href{https://github.com/AnikAdhikari7/Varta}{\textbf{Varta}} $|$ \emph{Web Application $|$ \href{https://varta-jnsl.onrender.com}{\underline{Link} \faExternalLinkSquare*}}}{Dec 2024 -- Mar 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack real-time \textbf{chat application} featuring user authentication, avatar updates, and live messaging with Socket.IO. Added authentication (signup, login) with JWT and bcrypt.js encryption.}
+            \resumeItem{Built the front-end using React, Vite, Tailwind CSS, and Zustand; implemented the back-end with Node.js, Express, MongoDB, and JWT for secure communication and Cloudinary for image uploads.}
+            % \resumeItem{Added authentication (signup, login) with JWT and bcrypt.js encryption.}
+            \resumeItem{\textbf{Tech Stack:} JavaScript, React, daisyUI, Zustand, Node.js, Express, MongoDB, Socket.IO, JWT, Cloudinary.}
+          \resumeItemListEnd
+
+      % \resumeProjectHeading
+      %     {\href{https://github.com/AnikAdhikari7/WeTube}{\textbf{WeTube}} $|$ \emph{Personal Project $|$ \href{https://hub.docker.com/r/anikadhikari/wetube}{\underline{Backend Server}}}}{Jan 2024 -- Feb 2024}
+      %     \resumeItemListStart
+      %       \resumeItem{Built a backend server for video and post sharing. Ensured scalability with Docker.}
+      %       \resumeItem{Implemented authentication, video uploads, tweets, likes, playlists, subscriptions, and analytics.}
+      %       \resumeItem{\textbf{Tech Stack:} JavaScript, Node.js, Express, MongoDB, Cloudinary, Docker, AWS.}
+      %     \resumeItemListEnd    
+          
+    \resumeSubHeadingListEnd
+
+    
+%-----------PROGRAMMING SKILLS-----------
+\section{\faTools\ Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+\item{
+    \vspace{2pt}
+    \textbf{Languages:} JavaScript, Python, Java, C, SQL \\ \vspace{2pt}
+    \textbf{Developer Tools:} Docker, Git \& GitHub, Linux, AWS, VS Code, Postman \\ \vspace{2pt}
+    \textbf{Databases \& BaaS:} MySQL, PostgreSQL, MongoDB, Redis, Firebase, Appwrite \\ \vspace{2pt}
+    \textbf{Libraries \& Frameworks:} React, TailwindCSS, Node.js, Express, Django, FastAPI \\
+    }
+ \end{itemize}
+
+
+
+% %------RELEVANT COURSEWORK-------
+% \section{Key Courses}
+% \vspace{-11pt}
+%     \begin{multicols}{3}
+%         \begin{itemize}[leftmargin=20pt, itemsep=-4pt]
+%             \item Full Stack Development
+%             \item Data Structures and Algorithms
+%             \item Computer Networking
+%             \item Object Oriented Programming
+%             \item Operating System
+%             \item Database Management System
+%         \end{itemize}
+%     \end{multicols}
+% \vspace{-13pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{\faTrophy\ Achievements}
+    \resumeSubHeadingListStart
+    
+            \resumeProjectHeading 
+              {\textbf{GNX Tech Club} – NSEC $|$ \emph{\href{https://www.linkedin.com/posts/gnx-nsec_gnxclub-teamintroduction-leadership-activity-7226105960975523841-MGbQ}{Event Organizer \& Management}}}{Oct 2023 -- Sep 2024}
+              
+            \resumeProjectHeading
+              {\textbf{Innovatrix Hackathon} - Finalist $|$ \emph{\href{https://unstop.com/certificate-preview/ac2ad208-e384-4940-ad82-5e3912fad5b9}{Techfest organized by NSEC}}}{May 2023}
+              
+            \resumeProjectHeading
+              {\textbf{HacktoberFest'22} - Contributor $|$ \emph{\href{https://www.linkedin.com/posts/anikadhikari_hacktoberfest2022-activity-7031599529565073408-ICjN}{Open-source event by DigitalOcean}}}{Oct 2022}
+              
+            \resumeProjectHeading
+              {\textbf{Google Developer Student Club} – NSEC $|$ \emph{\href{https://www.linkedin.com/in/anikadhikari/details/volunteering-experiences/}{App Team Member}}}{Aug 2022 -- Jul 2023}
+
+            % \resumeProjectHeading
+            %   {\textbf{Advanced Full Stack Application Development using MERN} $|$ \emph{\href{https://drive.google.com/file/d/1pjWNDQCazdqWV7l8lXOwxswKkg1fyWo4/view?usp=sharing}{AILABS \faExternalLink*}}}{Apr 2024}
+              
+            % \resumeItemListStart
+            %     \resumeItem{\textbf{Event Organizer \& Management} $|$ \href{https://www.linkedin.com/posts/gnx-nsec_gnxclub-teamintroduction-leadership-activity-7226105960975523841-MGbQ}{\emph{GNX Tech Club – NSEC}} $|$ Oct 2023 -- Sep 2024}
+                
+            %     \resumeItem{\textbf{Innovatrix Hackathon} - Finalist $|$ \href{https://unstop.com/certificate-preview/ac2ad208-e384-4940-ad82-5e3912fad5b9}{\emph{Techfest organized by NSEC}} $|$ May 2023}
+                
+            %     \resumeItem{\textbf{HacktoberFest'22} - Contributor  $|$ \href{https://www.linkedin.com/posts/anikadhikari_hacktoberfest2022-activity-7031599529565073408-ICjN}{\emph{Open-source event by DigitalOcean}} $|$ Oct 2022}
+                
+            %     \resumeItem{\textbf{App Team Member} $|$ 
+            %     \href{https://www.linkedin.com/in/anikadhikari/details/volunteering-experiences/}{\emph{Google Developer Student Club – NSEC}} $|$ Aug 2022 -- Jul 2023}
+            % \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
